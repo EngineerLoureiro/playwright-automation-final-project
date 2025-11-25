@@ -1,0 +1,23 @@
+{
+  "name": "playwright-automation-final-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EngineerLoureiro/playwright-automation-final-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/EngineerLoureiro/playwright-automation-final-project/issues"
+  },
+  "homepage": "https://github.com/EngineerLoureiro/playwright-automation-final-project#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.10.1"
+  }
+}
