@@ -49,7 +49,7 @@ export class InventoryPage {
     });
   }
 
-  async verifyInventoryItems(items: [CatalogItem]) {
+  async verifyInventoryItems(items: CatalogItem[]) {
     await test.step("Verify Inventory Items", async () => {
       for (const item of items) {
         const position = item.position;

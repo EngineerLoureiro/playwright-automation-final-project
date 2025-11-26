@@ -21,7 +21,7 @@ export class CartPage {
     });
   }
 
-  async verifyCartItems(items: [CartItem]) {
+  async verifyCartItems(items: CartItem[]) {
     await test.step("Verify Cart Items", async () => {
       for (const item of items) {
         const position = item.position;

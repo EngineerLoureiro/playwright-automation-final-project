@@ -27,3 +27,11 @@ export const PAYMENTS_PAGE = {
     ID: "payment-confirm-button",
   },
 };
+
+export const PAYMENT_METHODS = {
+  MBWAY: { ID: "payment-method-input-MBWay", TEXT: "MBWay" },
+  KLARNA: { ID: "payment-method-input-Klarna", TEXT: "Klarna" },
+  MULTIBANCO: { ID: "payment-method-input-Multibanco", TEXT: "Multibanco" },
+  PAYPAL: { ID: "payment-method-input-PayPal", TEXT: "Multibanco" },
+  VISA: { ID: "payment-method-input-Visa", TEXT: "Visa" },
+};

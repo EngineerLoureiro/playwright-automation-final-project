@@ -21,8 +21,8 @@ export class StorePage {
    * Navigate to the /store page and validate it is loaded.
    */
   async navigateToStore() {
-    await test.step("Navigate to /store page", async () => {
-      await this.page.goto("/store");
+    await test.step("Navigate to home page", async () => {
+      await this.tabInput(STORE_TABS.HOME).click();
       for (const tab of Object.values(STORE_TABS)) {
         await expect(this.tabInput(tab)).toBeVisible();
       }
