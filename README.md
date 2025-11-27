@@ -2,7 +2,7 @@
 
 ## TL;DR
 
-- Final project for Bruno Machado’s Playwright intro course
+- Final project for [@brunomachadors](https://github.com/brunomachadors) Playwright intro course
 - Structured automated tests for a store application using **Page Object Model (POM)**
 - Learned great practices like `test.step()`, centralized constants, and GitHub issue organization
 - Playwright is powerful and currently one of the industry’s go-to testing frameworks
@@ -19,10 +19,10 @@
 
 ## 🎓 About the Course & Project
 
-This project was created as the **final assignment** for the **Introductory Playwright course led by Bruno Machado**.
+This project was created as the **final assignment** for the **Introductory Playwright course led by [@brunomachadors](https://github.com/brunomachadors)**.
 The objective was to **design and structure automated tests for a store application**, applying best practices learned throughout the course, particularly the **Page Object Model (POM)** pattern.
 
-A huge thank you to **Bruno Machado** 👏  
+A huge thank you to **Bruno** 👏  
 His teaching style, the noticeable dedication behind the scenes to deliver quality material, and his **very cool GitHub** made this course extremely valuable and enjoyable.
 
 This course allowed me to:
